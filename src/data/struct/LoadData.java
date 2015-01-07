@@ -108,7 +108,7 @@ public class LoadData {
 //			            		 view.Main.indexer.Indexer_Doc(subject, predicate);
 			                 } else {
 			                     // object is a literal
-			                     Doc.insertString(Doc.getLength()," \"" + object.toString() + "\""+" ==> Le litÈrale\n\n", defaut);
+			                     Doc.insertString(Doc.getLength()," \"" + object.toString() + "\""+" ==> Le lit√©rale\n\n", defaut);
 			                  
 			                     // Indexation
 //			                     view.Main.indexer.Indexer_Doc(subject, predicate, object);
@@ -120,7 +120,7 @@ public class LoadData {
 			            	
 			            }
 			        }
-			        graph.display();
+			    //    graph.display();
 				    indx.closeWriter();
 				//   jenaAdapter.viewResultNode(new Indexer().SearchWithIndex("Smith"));
 			
